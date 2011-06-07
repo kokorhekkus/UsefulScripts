@@ -1,0 +1,17 @@
+#!/bin/sh
+
+sudo ssh -l krashad \
+-vfC \
+-L 25:smtp.orbis:25 \
+-L 995:mail.orbis:995 \
+-L 389:ldap.orbis:389 \
+-L 5222:jabber.orbis:5222 \
+-L 8080:proxy.orbis:8080 \
+-L 8081:custproxy.orbis:8080 \
+-L 10139:shared.orbis:139 \
+-L 10022:rosalind.orbis:22 \
+-L 10023:titan.orbis:22 \
+-L 10024:pluto.orbis:22 \
+-L 13389:rhea.openbet:3389 \
+-L 12401:pserver.openbet:2401 \
+ssh.openbet.com keepalive
