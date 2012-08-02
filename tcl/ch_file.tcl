@@ -1,6 +1,6 @@
 # $Id: ch_file.tcl,v 1.2 2008/10/12 14:40:11 krashad Exp $
 #
-# A module to help manipulate a file
+# A module to help manipulate a text file
 
 namespace eval ch_file {
 
