@@ -10,8 +10,8 @@ FROM = "karimrashad@gmail.com"
 TO = ["karim.rashad@trueclarity.co.uk"] # must be a list
 SUBJECT = "M48 Severn Bridge Status Change"
 TEXT = "The bridge status has changed: "
-UNAME = "karimrashad@gmail.com"
-PASSWD = "2b#MUHYn"
+UNAME = ""
+PASSWD = ""
 BRIDGEURL = 'https://www.severnbridge.co.uk/Home.aspx?.Parent=status3&FileName=status3'
 
 req = Request(BRIDGEURL)
